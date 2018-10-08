@@ -41,14 +41,14 @@
                 </executions>
             </plugin>
 
-
+    <!--
             <plugin>
-                <groupId>org.javalite</groupId>
-                <artifactId>db-migrator-maven-plugin</artifactId>
-                <version>${activejdbc.version}</version>
-                <configuration>
-                    <configFile>${project.basedir}/src/main/resources/database.properties</configFile>
-                    <environments>${environments}</environments>
+              <groupId>org.javalite</groupId>
+              <artifactId>db-migrator-maven-plugin</artifactId>
+               <version>${activejdbc.version}</version>
+             <configuration>
+                 <configFile>${project.basedir}/src/main/resources/database.properties</configFile>
+                  <environments>${environments}</environments>
                 </configuration>
                 <executions>
                     <execution>
@@ -66,7 +66,7 @@
                         <version>5.1.34</version>
                     </dependency>
                 </dependencies>
-            </plugin>
+            </plugin> -->
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
